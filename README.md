@@ -26,4 +26,4 @@ Enter the name of the ZIP file
 Enter the name of the Password List
 ```
 
-**Make sure <ZIP file> and <Password list>, both present in the currect dir**
+**Make sure <ZIP file> and <Password list>, both present in the currect directory or wirte the absolute path of the file.**
