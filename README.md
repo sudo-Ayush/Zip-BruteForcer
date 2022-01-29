@@ -12,11 +12,15 @@ Simple python script that can crack ZIP FILE's password!
 ## Installation
 ```
 git clone https://github.com/sudo-Ayush/Zip-BruteForcer
+
 cd Zip-BruteForcer
+
+pip3 install -r requirements.txt
+
 chmod +x Zip-BruteForcer.py
 ```
 
-## Usage
+## Usage | Parameters
 ```
 Enter the name of the ZIP file
 Enter the name of the Password List
