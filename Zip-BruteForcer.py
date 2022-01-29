@@ -32,7 +32,7 @@ print(f"""{Fore.BLUE}
          |_|
 """)
 
-print(f"{Fore.LIGHTCYAN_EX}[*] Make sure <ZIP file> and <Password list>, both present in the currect dir.")
+print(f"{Fore.LIGHTCYAN_EX}[*] Make sure <ZIP file> and <Password list>, both present in the currect directory or wirte the absolute path of the file.")
 
 name = input(f"{Fore.YELLOW}[*] Enter the name of the ZIP file: ")
 password_list = input(f"{Fore.YELLOW}[*] Enter the name of the Password List: ")
