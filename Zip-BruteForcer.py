@@ -4,6 +4,7 @@ from colorama import Fore
 from ast import For
 import colorama
 import time
+import os
 
 colorama.init(autoreset=True)
 
@@ -56,4 +57,12 @@ with ZipFile(name, 'r') as zip:
 
         else:
             print(f"{Fore.GREEN}[+]Password found : {password}")
-        
+            break
+        exit()
+    
+    else:
+        print(f'{Fore.RED}[x] Password not found! Use different password list')
+        n_name = name.split(".")
+        n_name = n_name[0]
+        delete = f'rm -rf {n_name}'
+        os.system(delete)
